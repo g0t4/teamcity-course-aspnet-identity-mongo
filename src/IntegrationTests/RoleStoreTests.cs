@@ -78,7 +78,7 @@
 
 			var changedRole = Roles.FindAll().Single();
 			Expect(changedRole, Is.Not.Null);
-			Expect(changedRole.Name, Is.EqualTo("newname1"));
+			Expect(changedRole.Name, Is.EqualTo("newname"));
 		}
 	}
 }
