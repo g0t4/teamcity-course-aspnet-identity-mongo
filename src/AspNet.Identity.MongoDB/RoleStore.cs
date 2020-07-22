@@ -8,7 +8,7 @@
 	/// <summary>
 	///     Note: Deleting and updating do not modify the roles stored on a user document. If you desire this dynamic
 	///     capability, override the appropriate operations on RoleStore as desired for your application. For example you could
-	///     perform a document modification on the users collection before a delete or a rename.
+	///     perform a document modification on the users collection before a delete or a rename.123
 	/// </summary>
 	/// <typeparam name="TRole"></typeparam>
 	public class RoleStore<TRole> : IRoleStore<TRole>, IQueryableRoleStore<TRole>

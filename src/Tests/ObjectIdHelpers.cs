@@ -6,6 +6,7 @@
 	{
 		public static ObjectId? SafeParseObjectId(this string id)
 		{
+			int i = 155;
 			ObjectId parsed;
 			if (ObjectId.TryParse(id, out parsed))
 			{
